@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+    
+   
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    background-color: silver;
+  
+    justify-content: center;
+    
+}
+.verh{
+    width: 100%;
+    height: 120px;
+   
+}
+.verh1{
+    width: 100%;
+    height: 70px;
+ background-color: silver;
+    position: fixed;
+    display: flex;
+   
+    justify-content: start;
+}
+.verh2{
+    width: 100%;
+    height: 50px;
+   display: flex;
+ background-color: white;
+    margin-top: 70px;
+position: fixed;
+align-items: center;
+justify-content: center;
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+    background-color: black;
+    position: fixed;
+
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+   
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 60px;
+    border-radius: 12px;
+   
+}
+
+.buttons{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1200px;
+    position: fixed;
+  
+
+}
+button{
+    width: auto 20px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 30px;
+    transition: all 0.3s ease; 
+    transition: transform 1s ease;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    border-color: transparent;
+    
+   
+  
+
+}
+button:hover{
+   
+    border-color: red;
+    transform: translateY(-5px);
+    z-index: 1;
+    
+}
+
+
+.golContainer{
+    width: 80%;
+    height: 100%;
+   background-color: white; 
+   margin-left: 10%;
+}
+ .compcont{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: silver;
+   
+ }
+ .compcont1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: silver;
+    
+    
+ }
+ 
+.comp1{
+    width: 300px;
+    height: 190px;
+   background-image: url(./image/golpc/Group\ 2\ \(2\).png);
+   margin-top: 20px;
+    margin-left: 45px;
+    transition: transform 1s ease;
+    border-radius: 7px
+    
+; 
+}
+.comp2{
+    width: 300px;
+    height: 190px;
+ border-radius: 7px;
+   margin-top: 20px;
+    margin-left: 45px;
+    transition: transform 1s ease;
+    background-image: url(./image/golpc/Group\ 1\ \(5\).png);
+}
+.comp3{
+    width: 290px;
+    height: 190px;
+   background-image: url(./image/golpc/Group\ 3\ \(1\).png);
+   margin-top: 20px;
+    margin-left: 45px;
+    transition: transform 1s ease;
+}
+.comp4{
+    width: 280px;
+    height: 190px;
+    background-image: url(./image/golpc/Group\ 8.png);
+   margin-top: 20px;
+    margin-left: 45px;
+    transition: transform 1s ease;
+   
+
+
+}
+.comp5{
+    width: 300px;
+    height: 190px;
+    background-image: url(./image/golpc/Group\ 9\ \(1\).png);
+   margin-top: 20px;
+    margin-left: 45px;
+    transition: transform 1s ease;
+}
+
+.comp6{
+    width: 300px;
+    height: 190px;
+    background-image: url(./image/golpc/Group\ 10.png);
+   margin-top: 20px;
+    margin-left: 45px;
+    transition: transform 1s ease;
+}
+.comp1:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .comp2:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .comp3:hover:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .comp4:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .comp5:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .comp6:hover:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+
+.prochtext{
+    width: 100%;
+    height: 50px;
+   background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.prochcontainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: silver;
+   
+
+}
+.prochintel{
+    width: 50%;
+    height: 170px;
+   background-color: white;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 7px;
+    justify-content: space-between;
+    
+    
+}
+
+.intel1{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    background-image: url(./image/sdsa/image\ 1\ \(1\).png);
+    transition: transform 1s ease;
+}
+
+.intel2{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    background-image: url(./image/sdsa/image\ 1\ \(2\).png);
+    transition: transform 1s ease;
+}
+.intel3{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    background-image: url(./image/sdsa/image\ 1\ \(3\).png);
+    transition: transform 1s ease;
+}
+.intel1:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .intel2:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .intel3:hover:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+.prochrayzen{
+    width: 50%;
+    height: 170px;
+   background-color:white;
+    display: flex;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    justify-content: space-between;
+}
+.ryzen1{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    background-image: url(./image/sdsa/image\ 1\ \(4\).png);
+    transition: transform 1s ease;
+}
+.ryzen2{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    background-image: url(./image/sdsa/image\ 1\ \(5\).png);
+    transition: transform 1s ease;
+}
+.ryzen3{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    background-image: url(./image/sdsa/image\ 1\ \(6\).png);
+    transition: transform 1s ease;
+}
+.ryzen1:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .ryzen2:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .ryzen3:hover:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+button{
+    border: none;
+}
+
+
+.videocardtetx{
+    width:100%;
+    height: 50px;
+    
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videocardcontainer{
+    width: 100%;
+    height: 250px;
+     
+    display: flex;
+}
+.videocardcontainer1{
+    width: 100%;
+    height: 240px;
+  
+    display: flex;
+}
+
+.videocard1{
+    width: 403px;
+    height: 190px;
+  background-color: white;
+   margin-top: 20px;
+   margin-left: 15px;
+    transition: transform 1s ease;
+    background-image: url(./image/videocard/image\ 5\ \(2\).png);
+}
+.videocard2{
+    width: 410px;
+    height: 190px;
+    background-color: white;
+   margin-top: 20px;
+   margin-left: 15px;
+    transition: transform 1s ease;   
+    background-image: url(./image/videocard/Group\ 4.png);
+}
+.videocard3{
+    width: 410px;
+    height: 190px;
+    background-color: white;
+   margin-top: 20px;
+   margin-left: 15px;
+    transition: transform 1s ease;  
+    background-image: url(./image/videocard/Group\ 5\ \(1\).png);
+}
+.videocard4{
+    width: 410px;
+    height: 190px;
+    background-color: white;
+   margin-top: 20px;
+   margin-left: 15px;
+    transition: transform 1s ease; 
+    background-image: url(./image/videocard/Group\ 6.png);
+}
+.videocard5{
+    width: 410px;
+    height: 190px;
+    background-color: white;
+   margin-top: 20px;
+    margin-left: 15px;
+    transition: transform 1s ease;
+    background-image: url(./image/videocard/Group\ 7.png);
+}
+.videocard6{
+    width: 410px;
+    height: 190px;
+    background-color: white;
+   margin-top: 20px;
+    margin-left: 15px;
+    transition: transform 1s ease;
+    background-image: url(./image/videocard/image\ 9.png);
+}
+.videocard1:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .videocard2:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .videocard3:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .videocard4:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .videocard5:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+  .videocard6:hover:hover {
+    transform: translateY(-15px);
+    z-index: 1; 
+  }
+
+.nizline{
+    width: 100%;
+height: 400px;
+background-color: black;
+margin-top: 200px;
+
+
+}
+
+.textcontainer{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    margin-top: 30px;
+}
+
+.menu{
+    width: 100px;
+    height: 50px;
+  
+    display: flex;
+    justify-content: space-around;
+    justify-content: center ;
+    margin-left: 400px;
+    color: white;
+   align-items: end;
+}
+.kontakts{
+    width: 100px;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    justify-content: center ;
+    margin-left: 400px;
+    align-items: end;
+    color: white;
+}
+
+.mesengares{
+    width: 100px;
+    height: 100%;
+  
+    display: flex;
+    justify-content: space-around;
+    justify-content: center ;
+    margin-left: 370px;
+    align-items: end;
+    color: white;
+}
+
+.logonizline{
+    width: 300px;
+    height: 250px;
+  
+   display: flex ;
+   margin-top: 50px;
+   margin-left: 40px;
+background-image: url(./image/Group\ 3\ \(2\).png);
+
+ 
+}
+.nizlinegolcontainer{
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+}
+
+.menunizline{
+    width: 250px;
+    height: 230px;
+  
+    margin-left: 20px;
+    display: flex;
+   margin-top: 30px;
+   color: white;
+
+
+
+}
+.kontaktsnizline{
+    width: 180px;
+    height: 200px;
+    
+    display: flex;
+    margin-left: 260px;
+    color: white;
+    margin-top: 10px;
+}
+
+.mesengaresnizline{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    
+    margin-left: 260px;
+    color: white;
+}
